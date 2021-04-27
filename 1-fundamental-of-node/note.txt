@@ -1,1 +1,37 @@
-// note here
+mason xiong
+
+APNIC 
+canva
+
+MEAN
+MongoDB Express.js Angular Node.js
+MERN
+React
+
+
+
+DNS （DOMAIN NAME SYSTEM) （DNS 缓存）
+ip, tcp 连接 （三次握手）
+服务器收到请求 / /search /api
+服务器处理请求并返回
+(CSR, SSR)
+请求方（浏览器）收到返回
+尝试渲染
+
+
+REPL
+read-eval-print loop
+language shell
+
+bash
+
+
+
+stack
+First in last out
+queue 
+first in first out
+
+
+typescript
+eslint
