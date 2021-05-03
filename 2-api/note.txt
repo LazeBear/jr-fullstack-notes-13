@@ -1,0 +1,26 @@
+// 序列化与反序列化
+// serialization vs de serialization
+// 手写JSON.stringify()
+// 递归， recursion
+
+restful api design
+1. api versioning
+// www.example.com/v1/api/students
+// api.example.com/v1/students
+2. url里的资源尽量使用名词，并且建议使用复数
+// www.example.com/v1/api/students
+// vs
+// www.example.com/v1/api/student
+3. 保证GET 方法不会对资源状态进行改变
+// GET example.com/v1/delete/student
+4. 资源的地址推荐使用嵌套结构
+// GET example.com/v1/students/123/grades
+5. 警惕返回结果的大小，适当进行分页处理
+// 1000 -> 10条，100页
+6. 使用相应的（正确的）status code来表示访问结果
+// 200
+7. 除了status code以外，如果是错误status，加上通俗易懂的文本
+// title is required
+
+
+// sequence diagram
