@@ -17,6 +17,16 @@ restful api design
 // GET example.com/v1/students/123/grades
 5. 警惕返回结果的大小，适当进行分页处理
 // 1000 -> 10条，100页
+/**
+ * {
+ *    data:[],
+ *    pagination: {
+ *      page: 1,
+ *      pageSize: 10,
+ *      total: 100
+ *    }
+ * }
+ */
 6. 使用相应的（正确的）status code来表示访问结果
 // 200
 7. 除了status code以外，如果是错误status，加上通俗易懂的文本
