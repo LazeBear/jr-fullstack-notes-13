@@ -103,3 +103,11 @@ function cors(req, res, next) {
 /**
  * {id: number, author: string, content: string}
  */
+
+/**
+ * Bracket Pair Colorizer 2
+ * Code Spell Checker
+ * Indent-Rainbow
+ * Material Icon Theme
+ * Prettier Formatter
+ */
