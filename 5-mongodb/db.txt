@@ -1,0 +1,46 @@
+mongoDB
+DataBase
+  mongo
+Humongous
+
+document oriented DataBase
+document = json
+collection
+user1
+user2 -> document 
+
+
+noSQL
+SQL
+structured query language
+relational db 关系型数据库
+
+mysql
+mariadb
+portgres
+sqlite
+
+
+no-sql
+not only sql
+
+dynamoDB
+redis
+firebase
+
+
+document-oriented -> mongoDB
+key-value -> redis
+column-family databases -> cassandra
+graph-oriented -> neo4j
+
+
+operator 
+query operator
+update operator
+project operator
+
+sharding
+scaling
+replica
+
