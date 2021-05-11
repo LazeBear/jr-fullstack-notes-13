@@ -1,0 +1,16 @@
+MVC
+model -> 数据，resource
+view -> 视图，用来展示数据的，（json）
+controller -> 控制器，business logic,逻辑部分，数据验证，数据的获取，对数据做一些处理，返回
+
+http request
+server  (app)
+path match (/tasks -> task router)
+router  (router)
+path match (GET -> method match)
+route handler (controller)
+validate data
+get data
+parse data
+return data (json, view)
+client receive data
