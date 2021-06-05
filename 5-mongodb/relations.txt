@@ -1,0 +1,67 @@
+student   course
+S         C 
+S1,S2     C1,C2
+
+1-TO-1 
+S1 -> C1
+S2 -> C2
+C1 -> S1
+C2 -> C2
+
+1-TO-M 
+S1 -> C1,C2
+S2 ->
+C1 -> S1
+C2 -> S1
+
+M-TO-N 
+S1 -> C1,C2
+S2 -> C1,C2
+C1 -> S1,S2
+C2 -> S1,S2
+
+trade-off
+
+
+STUDENT collection
+[
+  {
+    _id: "S1",
+    name: "student 1"
+    address: {
+      address_city: "brisbane",
+      address_postcode: 4000
+    }
+  },
+  {
+    _id: "S2",
+    name: "student 2"
+    addresses: [
+      {
+        _id: "A1",
+        city: "brisbane"
+      },
+      {
+        _id: "A2",
+        city: "sydney"
+      }
+    ]
+  },
+]
+
+ADDRESS collection
+[
+  {
+    _id: "A1",
+    city: "brisbane",
+    postcode: 4000
+  },
+  {
+    _id: "A2",
+    city: "sydney",
+    postcode: 5000
+  }
+]
+
+
+
