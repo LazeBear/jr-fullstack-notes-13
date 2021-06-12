@@ -13,7 +13,7 @@ module.exports = (error, req, res, next) => {
   }
 
   // catch other errors
-
+  console.log(error);
   // log
   // winston
   return res
